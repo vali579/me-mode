@@ -1,0 +1,16 @@
+{
+  "type": "Wall",
+  "name": "Закалённая титановая стена",
+  "description": "она абсолютно невосприимчива к огню и высоким температурам.",
+  "health": 1200,
+  "size": 1,
+  "chanceDeflect": 10,
+  "flashHit": true,
+  "absorbLasers": true,
+  "schematicPriority": 10,
+  "requirements": [
+    "hardened-tungsten/6"
+  ],
+  "category": "defense",
+  "research": "tungsten-treater"
+}

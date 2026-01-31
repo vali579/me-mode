@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Hardened tungsten",
+  "description": "A metal that has undergone heat treatment. It has a high melting point.",
+  "color": "70708b",
+  "flammability": 0,
+  "explosiveness": 0,
+  "hardness": 4,
+  "cost": 3
+}

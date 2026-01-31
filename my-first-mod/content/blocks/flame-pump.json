@@ -1,0 +1,28 @@
+{
+  "type": "SolidPump",
+  "name": "Насос жидкого пламени",
+  "description": "Мощная буровая установка, спнапрямую из вулкособная выкачивать жидкое пламя анических разломов.",
+  "size": 2,
+  "health": 500,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 60,
+  "pumpAmount": 0.15,
+  "result": "liquid-flame",
+  "consumes": {
+    "power": 3.0
+  },
+  "requirements": [
+    "hardened-tungsten/80",
+    "silicon/100",
+    "thorium/50"
+  ],
+  "category": "liquid",
+  "research": {
+    "parent": "thermal-generator",
+    "objectives": [
+      "titanium"
+    ]
+  },
+  "attribute": "heat"
+}
