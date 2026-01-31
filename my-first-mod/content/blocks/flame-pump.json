@@ -9,6 +9,7 @@
   "liquidCapacity": 60,
   "pumpAmount": 0.15,
   "result": "liquid-flame",
+  "updateEffect": "smeltsmoke",
   "consumes": {
     "power": 3.0
   },

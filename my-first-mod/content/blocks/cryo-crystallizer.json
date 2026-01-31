@@ -9,6 +9,7 @@
   "craftTime": 120,
   "itemCapacity": 20,
   "liquidCapacity": 40,
+  "updateEffect": "smeltsmoke",
   "consumes": {
     "items": [
       "hardened-tungsten/2"
@@ -27,17 +28,6 @@
     "objectives": [
       "hardened-tungsten",
       "cryofluid"
-    ]
-  },
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      { "type": "DrawDefault" },
-      {
-        "type": "DrawBlurSpin",
-        "blurThresh": 0.01,
-        "rotateSpeed": 5
-      }
     ]
   }
 }

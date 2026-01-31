@@ -1,0 +1,26 @@
+{
+  "type": "LiquidTurret",
+  "name": "Поток",
+  "description": "Распыляет жидкое пламя в сторону врага. Игнорирует большую часть защиты.",
+  "size": 2,
+  "range": 130,
+  "health": 950,
+  "reload": 5,
+  "ammoTypes": {
+    "liquid-flame": {
+      "type": "LiquidBulletType",
+      "liquid": "liquid-flame",
+      "damage": 60,
+      "speed": 4,
+      "drag": 0.02,
+      "status": "melting",
+      "orbSize": 4
+    }
+  },
+  "requirements": [
+    "hardened-tungsten/80",
+    "titanium/100"
+  ],
+  "category": "turret",
+  "research": "flame-pump"
+}
