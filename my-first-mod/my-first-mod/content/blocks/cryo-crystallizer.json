@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cryo-crystallizer",
+  "description": "Uses extreme cryogenic cooling to change the structure of tungsten, turning it into a crystal.",
+  "size": 3,
+  "health": 450,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 120,
+  "itemCapacity": 20,
+  "liquidCapacity": 40,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "items": [
+      "hardened-tungsten/2"
+    ],
+    "liquid": "cryofluid/0.2"
+  },
+  "outputItem": "cryo-crystal/1",
+  "requirements": [
+    "titanium/120",
+    "hardened-tungsten/80",
+    "silicon/60"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "thermal-synthesizer",
+    "objectives": [
+      "hardened-tungsten",
+      "cryofluid"
+    ]
+  }
+}

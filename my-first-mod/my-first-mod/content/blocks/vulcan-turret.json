@@ -1,0 +1,50 @@
+{
+  "type": "ItemTurret",
+  "name": "Вулкан",
+  "description": "Выстреливает нестабильными снарядами из огненной смеси. При попадании снаряд взрывается, создавая огненную вспышку и поджигая врагов.",
+  "size": 2,
+  "health": 800,
+  "range": 190,
+  "reload": 45,
+  "recoil": 3,
+  "shootSound": "bang",
+  "ammoTypes": {
+    "pyro-blast-mix": {
+      "type": "ArtilleryBulletType",
+      "speed": 4,
+      "lifetime": 50,
+      "damage": 30,
+      
+
+      "splashDamage": 65,
+      "splashDamageRadius": 32,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      
+    
+      "status": "burning",
+      "statusDuration": 600,
+      "makeFire": true,
+      "incendAmount": 4,
+      "incendSpread": 10,
+      
+   
+      "width": 12,
+      "height": 12,
+      "backColor": "ff8c00",
+      "frontColor": "ffeeaa",
+      "shrinkX": 0.3,
+      "shrinkY": 0.3,
+      "trailColor": "ff8c00",
+      "trailWidth": 3,
+      "trailLength": 8
+    }
+  },
+  "requirements": [
+    "hardened-tungsten/60",
+    "lead/100",
+    "graphite/40"
+  ],
+  "category": "turret",
+  "research": "thermal-synthesizer"
+}

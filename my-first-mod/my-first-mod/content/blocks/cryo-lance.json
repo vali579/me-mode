@@ -1,0 +1,31 @@
+{
+  "type": "ItemTurret",
+  "name": "Ледяное Копье",
+  "description": "Выстреливает острым ледяным снарядом на огромные расстояния. Замораживает цель.",
+  "size": 3,
+  "range": 320,
+  "health": 1200,
+  "reload": 80,
+  "ammoTypes": {
+    "cryo-crystal": {
+      "type": "BasicBulletType",
+      "damage": 150,
+      "speed": 8,
+      "width": 8,
+      "height": 20,
+      "shrinkY": 0.5,
+      "backColor": "6ecdec",
+      "frontColor": "ffffff",
+      "status": "freezing",
+      "statusDuration": 300,
+      "ammoMultiplier": 1
+    }
+  },
+  "requirements": [
+    "hardened-tungsten/120",
+    "cryo-crystal/40",
+    "silicon/150"
+  ],
+  "category": "turret",
+  "research": "cryo-crystallizer"
+}

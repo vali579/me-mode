@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Thermal synthesizer",
+  "description": "Mixes pyrotite and explosive mixture under high pressure using oil as a binder and catalyst.",
+  "size": 2,
+  "health": 320,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "items": [
+      "pyratite/1",
+      "blast-compound/1"
+    ],
+    "liquid": "oil/0.3"
+  },
+  "outputItem": "pyro-blast-mix/1",
+  "requirements": [
+    "copper/70",
+    "lead/50",
+    "titanium/40"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "kiln",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "groundZero"
+      },
+      "titanium",
+      "pyratite"
+    ]
+  }
+}

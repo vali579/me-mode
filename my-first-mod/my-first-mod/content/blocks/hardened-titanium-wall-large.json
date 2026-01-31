@@ -1,0 +1,15 @@
+{
+  "type": "Wall",
+  "name": "Большая закалённая титановая стена",
+  "description": "Поглощает лазерные лучи и полностью игнорирует огненный урон.",
+  "health": 4800,
+  "size": 2,
+  "chanceDeflect": 15,
+  "flashHit": true,
+  "absorbLasers": true,
+  "requirements": [
+    "hardened-tungsten/24"
+  ],
+  "category": "defense",
+  "research": "hardened-titanium-wall"
+}

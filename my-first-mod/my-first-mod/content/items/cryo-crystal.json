@@ -1,0 +1,15 @@
+{
+  "type": "item",
+  "name": "Cryo-crystal",
+  "description": "A superconducting crystal grown in liquid nitrogen. Used in advanced electronics.It was made by my friend",
+  "color": "6ecdec",
+  "charge": 0.5,
+  "cost": 4,
+  "research": {
+    "parent": "cryo-crystallizer",
+    "requirements": [
+      "hardened-tungsten/400",
+      "thorium/200"
+    ]
+  }
+}

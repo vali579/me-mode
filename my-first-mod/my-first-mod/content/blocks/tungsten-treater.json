@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Закалочный комплекс",
+  "description": "Использует жидкое пламя для экстремального нагрева и воду для мгновенной закалки титана.",
+  "size": 3,
+  "health": 650,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 40,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "items": [
+      "titanium/2"
+    ],
+    "liquids": [
+      "liquid-flame/0.12",
+      "water/0.2"
+    ],
+    "power": 3.0
+  },
+  "outputItem": "hardened-tungsten/1",
+  "requirements": [
+    "lead/150",
+    "silicon/100",
+    "titanium/80"
+  ],
+  "category": "crafting",
+  "research": "thermal-synthesizer"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "ItemTurret",
+  "name": "Инферно",
+  "description": "Апогей термических технологий. Требует постоянного подвода жидкого пламени. Создает разрушительные взрывы.",
+  "size": 4,
+  "range": 400,
+  "health": 2500,
+  "reload": 120,
+  "consumes": {
+    "liquid": "liquid-flame/0.2"
+  },
+  "ammoTypes": {
+    "pyro-blast-mix": {
+      "type": "FlakBulletType",
+      "damage": 200,
+      "speed": 6,
+      "explodeRange": 60,
+      "collidesGround": true,
+      "ammoMultiplier": 1,
+      "hitEffect": "blastExplosion",
+      "status": "burning"
+    }
+  },
+  "requirements": [
+    "hardened-tungsten/250",
+    "thorium/200",
+    "silicon/300",
+    "cryo-crystal/50"
+  ],
+  "category": "turret",
+  "research": "cryo-lance"
+}

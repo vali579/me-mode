@@ -1,0 +1,17 @@
+{
+  "type": "item",
+  "name": "Fiery mixture",
+  "description": "An unstable mixture of pyrotite and explosive. Extremely dangerous, but releases colossal energy.",
+  "color": "ff8c00",
+"flammability": 2.5,
+  "explosiveness": 3.0,
+  "cost": 2,
+  "research": {
+    "parent": "thermal-synthesizer",
+    "requirements": [
+      "pyratite/500",
+      "blast-compound/500",
+      "titanium/200"
+    ]
+  }
+}

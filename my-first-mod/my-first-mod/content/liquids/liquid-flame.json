@@ -1,0 +1,12 @@
+{
+  "name": "Liquid flame",
+  "description": "Super-hot substance",
+  "color": "ff5a00", 
+  "lightColor": "ff5a0033",
+  "flammability": 5.0,
+  "temperature": 2.5,
+  "viscosity": 0.6,
+  "explosiveness": 1.5,
+  "effect": "melting",
+  "research": "flame-liquefier"
+}
